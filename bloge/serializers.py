@@ -1,5 +1,5 @@
 from rest_framework.serializers import Serializer
-from blog.models import Post
+from bloge.models import Post
 from django.contrib.auth.models import User
 
 class UserSerializer(Serializer):
