@@ -8,8 +8,7 @@ class UserSerializer(ModelSerializer):
         fields = ['id', 'username', 'email']
 
 class PostSerializer(ModelSerializer):
-    author = UserSerializer()
+    # author = UserSerializer()
     class Meta:
         model = Post
         fields = ['id','title', 'author', 'body', 'created_at', 'updated_at']
-        depth = 1
