@@ -7,3 +7,4 @@ django-modeltranslation
 dj-rest-auth
 django-allauth
 djangorestframework-simplejwt
+django-filter
